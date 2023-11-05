@@ -51,3 +51,5 @@ streamlit.dataframe(my_data_row)
 fruit_add = streamlit.text_input('Which fruit would you like to add?')
 if fruit_add is not None:
   streamlit.write('Thank you for adding ', fruit_add)
+
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.fruit_load_list values ('from streamlit');")
