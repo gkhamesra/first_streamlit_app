@@ -51,4 +51,3 @@ streamlit.dataframe(my_data_row)
 fruit_choice = streamlit.text_input('Which fruit would you like to add?')
 if fruit_choice is not None:
   streamlit.write('Thank you for adding ', fruit_choice)
-end
